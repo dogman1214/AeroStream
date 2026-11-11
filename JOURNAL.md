@@ -13,3 +13,15 @@ idk tho
 https://lapse.hackclub.com/timelapse/XvpUFCtiKgLS
 
 **Total time spent: 1.25 hours**
+
+# 11/10/2026: Some changes + schematic
+So i want to change how the design works. Having a floating under-screen layout would be very hard and annoying to do, as well as expensive. BUT, if I sort of replicate the layout of the winamp screen, that would be realtively easier to do as well as still looking retro-stylish. Like, look at this: <img width="519" height="237" alt="image" src="https://github.com/user-attachments/assets/544eb950-3cd7-4c58-8f55-c8296caad476" />
+
+of course, it won't be a full 1:1 copy due to copyright restrictions and everything, but you get the gist of it.
+So then I'm continuing to work on the schematic. 
+So, I worked on the schematic. I added resistors to the SUBc, connected like the Ap2112k voltasge regulator, wired the battery (its just  apin), programmed at 500mA discharge. added a load sharing circuit osoi that you can operate while charging. Decided we r going to use a esp32 n16r8. So we isolated the PSSRAM pins. I added the MicrfoSD card, and im planning to use the CIrrus CS43131 DAC because it gives good audio quality while not being a power hungry moster. Also relatively affordable at $18, which is concerning in mas production.
+<img width="1577" height="1069" alt="image" src="https://github.com/user-attachments/assets/adc81582-c30a-4fda-8250-38d500689d25" />
+
+https://lapse.hackclub.com/timelapse/q2PGdiHObc6c
+https://lapse.hackclub.com/timelapse/f0RfLnmQCNTE
+**Total time spent: 3 hours**
